@@ -1,0 +1,19 @@
+{
+  "name": "collision.js",
+  "version": "2.0.0",
+  "description": "HTML5 game library.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jesselpalmer/collision.js.git"
+  },
+  "author": "Jesse Palmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesselpalmer/collision.js/issues"
+  },
+  "homepage": "https://github.com/jesselpalmer/collision.js"
+}
