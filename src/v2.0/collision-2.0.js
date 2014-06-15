@@ -1,8 +1,8 @@
 /**
- * @fileoverview This is a library to detect collisions between two objects.
+ * @fileoverview HTML5 Game Library.
  * @author Jesse Palmer
  */
-
+// @version: 2.0
 window.collision = (function () {
     'use strict';
 
