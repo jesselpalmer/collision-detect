@@ -1,6 +1,7 @@
 /**
  * @fileoverview This is a library to detect collisions between two objects.
  * @author Jesse Palmer
+ * @version 1.1.0
  */
 
 /**

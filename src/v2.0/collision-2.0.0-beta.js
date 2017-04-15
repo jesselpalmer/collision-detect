@@ -1,5 +1,6 @@
+
 /**
- * @fileoverview HTML5 Game Library.
+ * @fileoverview HTML5 collision game library.
  * @author Jesse Palmer
  */
 // @version: 2.0
