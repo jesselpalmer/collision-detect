@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/mission-bay-games/collision.js/issues"
   },
-  "homepage": "collisionjs.org"
+  "homepage": "collisionjs.org",
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0"
+  }
 }
