@@ -1,19 +1,26 @@
 {
   "name": "collision.js",
-  "version": "1.1",
+  "version": "1.1.0",
   "description": "HTML5 collision game library.",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jesselpalmer/collision.js.git"
+    "url": "git://github.com/mission-bay-games/collision.js.git"
   },
+  "keywords": [
+    "canvas",
+    "HTML5",
+    "games",
+    "collision",
+    "detection"
+  ],
   "author": "Jesse Palmer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jesselpalmer/collision.js/issues"
+    "url": "https://github.com/mission-bay-games/collision.js/issues"
   },
-  "homepage": "https://github.com/jesselpalmer/collision.js"
+  "homepage": "collisionjs.org"
 }
