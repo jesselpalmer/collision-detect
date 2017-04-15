@@ -25,5 +25,10 @@
   "homepage": "collisionjs.org",
   "devDependencies": {
     "babel-preset-env": "^1.4.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }
