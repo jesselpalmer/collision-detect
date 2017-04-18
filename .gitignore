@@ -3,3 +3,6 @@ node_modules
 
 # Build folders
 lib
+
+# Intellij build files
+.idea
