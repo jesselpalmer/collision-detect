@@ -25,16 +25,7 @@
   },
   "homepage": "https://github.com/jesselpalmer/collision.js",
   "devDependencies": {
-    "babel-preset-env": "^1.4.0",
     "tslint": "^5.16.0",
     "typescript": "^3.4.5"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  },
-  "dependencies": {
-    "babel-cli": "^6.24.1"
   }
 }
