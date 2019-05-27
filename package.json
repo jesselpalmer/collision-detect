@@ -21,9 +21,9 @@
   "author": "Jesse Palmer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mission-bay-games/collision.js/issues"
+    "url": "https://github.com/jesselpalmer/collision.js/issues"
   },
-  "homepage": "collisionjs.org",
+  "homepage": "https://github.com/jesselpalmer/collision.js",
   "devDependencies": {
     "babel-preset-env": "^1.4.0"
   },
