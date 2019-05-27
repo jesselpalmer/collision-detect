@@ -1,8 +1,5 @@
 # Node_modules
 node_modules
 
-# Build folders
-lib
-
 # Intellij build files
 .idea
