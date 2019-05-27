@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mission-bay-games/collision.js.git"
+    "url": "git://github.com/jesselpalmer/collision.js.git"
   },
   "keywords": [
     "canvas",
