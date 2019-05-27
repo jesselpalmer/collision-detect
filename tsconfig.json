@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./public",
+    "outDir": "./lib",
     "allowJs": true,
     "target": "es5"
   },
