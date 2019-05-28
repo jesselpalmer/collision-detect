@@ -2,9 +2,13 @@
   "compilerOptions": {
     "outDir": "./lib",
     "allowJs": true,
-    "target": "es5"
+    "target": "es5",
+    "types": [ "mocha", "chai" ]
   },
   "include": [
-      "./src/**/*"
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./src/**/*.ts"
   ]
 }
