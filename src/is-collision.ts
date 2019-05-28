@@ -1,6 +1,6 @@
+import { isCollidingBottom } from './is-colliding-bottom'
 import isCollidingMiddleLeft from './is-colliding-left'
 import isCollidingMiddleRight from './is-colliding-right'
-import { isCollidingBottom } from './is-colliding-bottom'
 import { isCollidingTop } from './is-colliding-top'
 
 /**

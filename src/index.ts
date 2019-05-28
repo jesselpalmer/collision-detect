@@ -3,11 +3,12 @@
  * @author Jesse Palmer
  */
 
-import { isColliding, isCollidingMiddleRightOrLeft, isCollidingTopOrBottom } from './is-collision'
-import { isCollidingBottom, isCollidingBottomLeft, isCollidingBottomMiddle, isCollidingBottomRight } from './is-colliding-bottom'
+import { isCollidingBottom, isCollidingBottomLeft, isCollidingBottomMiddle,
+  isCollidingBottomRight } from './is-colliding-bottom'
 import { isCollidingTop, isCollidingTopLeft, isCollidingTopMiddle, isCollidingTopRight } from './is-colliding-top'
+import { isColliding, isCollidingMiddleRightOrLeft, isCollidingTopOrBottom } from './is-collision'
 
-export default { 
+export default {
   isColliding,
   isCollidingBottom,
   isCollidingBottomLeft,
@@ -18,5 +19,5 @@ export default {
   isCollidingTopLeft,
   isCollidingTopMiddle,
   isCollidingTopOrBottom,
-  isCollidingTopRight
-} 
+  isCollidingTopRight,
+}
