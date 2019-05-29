@@ -1,5 +1,5 @@
 import isCollidingTopLeft from '.'
-import { expect } from 'chai';
+import { expect } from 'chai'
 
 describe('isCollidingTopLeft tests', () => {
   it('should return true if object2 collides with the top left of object1', () => {
