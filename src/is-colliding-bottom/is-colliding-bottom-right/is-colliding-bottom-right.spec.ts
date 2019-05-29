@@ -1,8 +1,8 @@
-import isCollidingBottomRight from './is-colliding-bottom-right'
+import isCollidingBottomRight from '.'
 import { expect } from 'chai';
 
-describe('isCollidingBottomRight tests', function() {
-  it('should return true if object2 collides with the bottom right of object1', function() {
+describe('isCollidingBottomRight tests', () => {
+  it('should return true if object2 collides with the bottom right of object1', () => {
     const object1 = {
       x1: 0,
       x2: 10,
