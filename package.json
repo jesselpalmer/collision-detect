@@ -8,7 +8,8 @@
     "build:watch": "node_modules/.bin/tsc -w",
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "test:coverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" mocha -r ts-node/register src/**/*.spec.ts && nyc report"
+    "test:coverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" mocha -r ts-node/register src/**/*.spec.ts && nyc report",
+    "test:watch": "mocha -r ts-node/register --watch src/**/*.spec.ts --watch-extensions ts"
   },
   "repository": {
     "type": "git",
