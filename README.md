@@ -18,7 +18,7 @@ let obj1 = {
   y2: 10
 }
 
-let obt2 = {
+let obj2 = {
   x1: 5,
   x2: 15,
   y1: 5,
