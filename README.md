@@ -4,7 +4,7 @@ collision.js is a JavaScript library for use for collision detection to use for 
 
 ## Usage
 
-Currently, only squares and rectangles. It is required that both objects contain x1, x2, y1, and y2. They can contain other methods as well.
+Currently, only squares and rectangles. It is required that both objects contain `x1`, `x2`, `y1`, and `y2`. They can contain other methods as well.
 
 ### Simple object example
 
