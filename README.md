@@ -25,7 +25,7 @@ let obj2 = {
   y2: 15
 }
 
-if (isColliding(obj1, obj2)) {
+if (isColliding(obj1, obj2)) { // collision detected!
   obj1.x1 += 1
   obj1.x2 += 1
 }
@@ -59,7 +59,7 @@ class Rectangle extends Square {
 const square = new Square(0, 10, 0, 10)
 const rectangle = new Rectangle(5, 15, 5, 15)
 
-if (isColliding(square, rectangle)) {
+if (isColliding(square, rectangle)) { // collision detected!
   square.moveRight()
 }
 ```
