@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "outDir": "./lib",
     "allowJs": true,
+    "lib": ["es6"],
+    "noImplicitAny": true,
+    "outDir": "./lib",
     "target": "es5",
-    "types": [ "mocha", "chai" ]
+    "types": ["mocha", "chai"]
   },
   "include": [
     "./src/**/*"
