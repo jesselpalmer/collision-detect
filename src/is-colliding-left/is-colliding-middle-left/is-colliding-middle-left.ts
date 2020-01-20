@@ -1,3 +1,5 @@
+import CollisionObject from '../../collision-object'
+
 /**
  * isCollidingMiddleLeft()
  * -----------------------
@@ -6,11 +8,11 @@
  * function will return true only if the collision occurs when the obj2
  * side is larger than the obj1 side.
  *
- * @param {Object} obj1 This is the first object in the collision test.
- * @param {Object} obj2 This is the second object in the collision test.
+ * @param {CollisionObject} obj1 This is the first object in the collision test.
+ * @param {CollisionObject} obj2 This is the second object in the collision test.
  * @return {boolean} Returns whether there is a collision or not.
  */
-const isCollidingMiddleLeft = (obj1, obj2) => {
+const isCollidingMiddleLeft = (obj1: CollisionObject, obj2: CollisionObject): boolean => {
   return (obj1.x1 > obj2.x1) && (obj1.x1 < obj2.x2) &&
       (obj1.x2 > obj2.x1) && (obj1.x2 > obj2.x2) &&
       (obj1.y1 > obj2.y1) && (obj1.y1 < obj2.y2) &&
