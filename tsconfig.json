@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "lib": ["es6"],
+    "lib": ["es6", "dom"],
     "noImplicitAny": true,
     "outDir": "./lib",
     "target": "es5",
