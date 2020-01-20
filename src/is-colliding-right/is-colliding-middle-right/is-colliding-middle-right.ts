@@ -1,6 +1,6 @@
 import CollisionObject from '../../collision-object'
-import isCollidingMiddleRightSmaller from './is-colliding-middle-right-smaller'
 import isCollidingMiddleRightLarger from './is-colliding-middle-right-larger'
+import isCollidingMiddleRightSmaller from './is-colliding-middle-right-smaller'
 
 /**
  * isCollidingMiddleRight()
