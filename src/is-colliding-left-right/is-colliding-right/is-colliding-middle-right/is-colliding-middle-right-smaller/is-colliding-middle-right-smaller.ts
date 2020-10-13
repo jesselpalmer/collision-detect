@@ -1,4 +1,4 @@
-import CollisionObject from '../../../collision-object'
+import CollisionObject from '../../../../collision-object'
 
 /**
  * isCollidingMiddleRightSmaller()

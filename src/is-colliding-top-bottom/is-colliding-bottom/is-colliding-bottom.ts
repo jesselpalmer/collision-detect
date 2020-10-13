@@ -1,4 +1,4 @@
-import CollisionObject from '../collision-object'
+import CollisionObject from '../../collision-object'
 import isCollidingBottomLeft from './is-colliding-bottom-left'
 import isCollidingBottomMiddle from './is-colliding-bottom-middle'
 import isCollidingBottomRight from './is-colliding-bottom-right'

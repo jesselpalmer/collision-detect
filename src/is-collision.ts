@@ -1,8 +1,8 @@
 import CollisionObject from './collision-object'
-import { isCollidingBottom } from './is-colliding-bottom'
-import isCollidingMiddleLeft from './is-colliding-left'
-import isCollidingMiddleRight from './is-colliding-right'
-import { isCollidingTop } from './is-colliding-top'
+import { isCollidingBottom } from './is-colliding-top-bottom/is-colliding-bottom'
+import isCollidingMiddleLeft from './is-colliding-left-right/is-colliding-left'
+import isCollidingMiddleRight from './is-colliding-left-right/is-colliding-right'
+import { isCollidingTop } from './is-colliding-top-bottom/is-colliding-top'
 
 /**
  * isCollidingTopOrBottom()

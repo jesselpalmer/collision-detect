@@ -4,8 +4,8 @@
  */
 
 import { isCollidingBottom, isCollidingBottomLeft, isCollidingBottomMiddle,
-  isCollidingBottomRight } from './is-colliding-bottom'
-import { isCollidingTop, isCollidingTopLeft, isCollidingTopMiddle, isCollidingTopRight } from './is-colliding-top'
+  isCollidingBottomRight } from './is-colliding-top-bottom/is-colliding-bottom'
+import { isCollidingTop, isCollidingTopLeft, isCollidingTopMiddle, isCollidingTopRight } from './is-colliding-top-bottom/is-colliding-top'
 import { isColliding, isCollidingMiddleRightOrLeft, isCollidingTopOrBottom } from './is-collision'
 
 export default {
