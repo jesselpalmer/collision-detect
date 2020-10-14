@@ -16,4 +16,4 @@ const isCollidingTopOrBottom = (obj1: CollisionObject, obj2: CollisionObject): b
   return isCollidingTop(obj1, obj2) || isCollidingBottom(obj1, obj2)
 }
 
-export { isCollidingTopOrBottom }
+export default isCollidingTopOrBottom
