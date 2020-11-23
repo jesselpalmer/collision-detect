@@ -1,0 +1,36 @@
+import CollisionObject from '../../../../shared/collision-object'
+
+
+// const obj1: CollisionObject = {
+//   x1: 4,
+//   x2: 11,
+//   y1: 3,
+//   y2: 11,
+// }
+
+// const obj2: CollisionObject = {
+//   x1: 2,
+//   x2: 8,
+//   y1: 5,
+//   y2: 9,
+// }
+
+/**
+ * isCollidingMiddleLeftSmaller()
+ * ------------------------------
+ * Used to determine whether the left-middle side of obj1 collides with
+ * the left side of obj2 where obj1 is smaller than obj2. The objects must
+ * have an x1, y1, x2, and y2.
+ *
+ * @param {CollisionObject} obj1 This is the first object in the collision test.
+ * @param {CollisionObject} obj2 This is the second object in the collision test.
+ * @return {boolean} Returns whether there is a collision or not.
+ */
+const isCollidingMiddleLeftSmaller = (obj1: CollisionObject, obj2: CollisionObject): boolean => {
+  return (obj1.x1 > obj2.x1) && (obj1.x1 < obj2.x2) &&
+      (obj1.x2 > obj2.x1) && (obj1.x2 > obj2.x2) &&
+      (obj1.y1 > obj2.y1) && (obj1.y1 < obj2.y2) &&
+      (obj1.y2 > obj2.y1) && (obj1.y2 < obj2.y2)
+}
+
+export default isCollidingMiddleLeftSmaller
