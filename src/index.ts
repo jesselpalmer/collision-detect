@@ -6,7 +6,9 @@
 import { isCollidingBottom, isCollidingBottomLeft, isCollidingBottomMiddle,
   isCollidingBottomRight } from './is-colliding-top-bottom/is-colliding-bottom'
 import { isCollidingTop, isCollidingTopLeft, isCollidingTopMiddle, isCollidingTopRight } from './is-colliding-top-bottom/is-colliding-top'
-import { isColliding, isCollidingMiddleRightOrLeft, isCollidingTopOrBottom } from './is-collision'
+import isCollidingMiddleLeftRight from './is-colliding-middle-left-right'
+import isCollidingTopOrBottom from './is-colliding-top-bottom'
+import { isColliding } from './is-collision'
 
 export default {
   isColliding,
@@ -14,7 +16,7 @@ export default {
   isCollidingBottomLeft,
   isCollidingBottomMiddle,
   isCollidingBottomRight,
-  isCollidingMiddleRightOrLeft,
+  isCollidingMiddleLeftRight,
   isCollidingTop,
   isCollidingTopLeft,
   isCollidingTopMiddle,
