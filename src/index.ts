@@ -8,7 +8,7 @@ import { isCollidingBottom, isCollidingBottomLeft, isCollidingBottomMiddle,
 import { isCollidingTop, isCollidingTopLeft, isCollidingTopMiddle, isCollidingTopRight } from './is-colliding-top-bottom/is-colliding-top'
 import isCollidingMiddleLeftRight from './is-colliding-middle-left-right'
 import isCollidingTopOrBottom from './is-colliding-top-bottom'
-import { isColliding } from './is-collision'
+import isColliding from './is-collision'
 
 export default {
   isColliding,
