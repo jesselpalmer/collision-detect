@@ -27,6 +27,9 @@
   "bugs": {
     "url": "https://github.com/jesselpalmer/collision.js/issues"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "homepage": "https://github.com/jesselpalmer/collision.js",
   "devDependencies": {
     "@types/chai": "^4.2.14",
