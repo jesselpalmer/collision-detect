@@ -1,20 +1,5 @@
 import CollisionObject from '../../../../shared/collision-object'
 
-
-// const obj1: CollisionObject = {
-//   x1: 4,
-//   x2: 11,
-//   y1: 3,
-//   y2: 11,
-// }
-
-// const obj2: CollisionObject = {
-//   x1: 2,
-//   x2: 8,
-//   y1: 5,
-//   y2: 9,
-// }
-
 /**
  * isCollidingMiddleLeftSmaller()
  * ------------------------------
