@@ -4,11 +4,11 @@
   "description": "Simple 2D JavaScript collision detection library",
   "main": "index.js",
   "scripts": {
-    "build": "npm run lint && ./node_modules/.bin/tsc",
+    "build": "./node_modules/.bin/tsc",
     "build:watch": "./node_modules/.bin/tsc -w",
     "lint": "./node_modules/.bin/eslint . --ext .ts",
     "lint:fix": "./node_modules/.bin/eslint --fix ./src/**/*.*",
-    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "prebuild": "npm run lint",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
     "test:coverage": "nyc -r lcov -e .ts -x \"*.spec.ts\" mocha -r ts-node/register src/**/*.spec.ts && nyc report",
     "test:watch": "mocha -r ts-node/register --watch src/**/*.spec.ts --watch-extensions ts"
