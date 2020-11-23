@@ -1,4 +1,4 @@
-import { expect } from 'chai';
+import { expect } from 'chai'
 
 import CollisionObject from '../../../shared/collision-object'
 import isCollidingMiddleRight from '.'
