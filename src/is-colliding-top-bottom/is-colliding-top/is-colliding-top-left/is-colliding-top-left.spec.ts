@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import CollisionObject from '../../../shared/collision-object'
+import CollisionObject from '../../../shared/models/collision-object'
 import isCollidingTopLeft from '.'
 
 describe('isCollidingTopLeft tests', () => {

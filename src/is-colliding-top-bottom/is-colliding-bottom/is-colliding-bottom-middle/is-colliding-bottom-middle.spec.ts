@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import CollisionObject from '../../../shared/collision-object'
+import CollisionObject from '../../../shared/models/collision-object'
 import isCollidingBottomMiddle from '.'
 
 describe('isCollidingBottomMiddle tests', () => {

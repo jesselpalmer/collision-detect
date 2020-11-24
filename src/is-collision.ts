@@ -1,4 +1,4 @@
-import CollisionObject from './shared/collision-object'
+import CollisionObject from './shared/models/collision-object'
 import isCollidingTopOrBottom from './is-colliding-top-bottom'
 import isCollidingMiddleRightOrLeft from './is-colliding-middle-left-right'
 
