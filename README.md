@@ -36,7 +36,7 @@ if (isColliding(obj1, obj2)) { // collision detected!
 ```javascript
 import { isColliding } from 'collision.js'
 
-class Square {
+class Rectange {
   constructor(x1, x2, y1, y2) {
     this.x1 = x1
     this.x2 = x2
@@ -50,14 +50,14 @@ class Square {
   }
 }
 
-class Rectangle extends Square {
+class Square extends Rectangle {
   constructor(...args) {
     super(...args)
   }
 }
 
-const square = new Square(0, 10, 0, 10)
 const rectangle = new Rectangle(5, 15, 5, 15)
+const square = new Square(0, 10, 0, 10)
 
 if (isColliding(square, rectangle)) { // collision detected!
   square.moveRight()
