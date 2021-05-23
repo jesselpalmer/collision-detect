@@ -4,6 +4,7 @@
   "description": "Simple 2D JavaScript collision detection library",
   "main": "index.js",
   "scripts": {
+    "build": "npm run compile",
     "compile": "rm -rf ./lib && tsc",
     "compile:watch": "rm -rf ./lib && tsc -w",
     "clean": "gts clean",
