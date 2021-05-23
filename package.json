@@ -4,11 +4,15 @@
   "description": "Simple 2D JavaScript collision detection library",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./lib && ./node_modules/.bin/tsc",
-    "build:watch": "./node_modules/.bin/tsc -w",
-    "lint": "./node_modules/.bin/eslint . --ext .ts",
-    "lint:fix": "./node_modules/.bin/eslint --fix ./src/**/*.*",
+    "compile": "rm -rf ./lib && ./node_modules/.bin/tsc",
+    "compile:watch": "rm -rf ./lib && ./node_modules/.bin/tsc -w",
+    "clean": "gts clean",
+    "fix": "gts fix",
+    "lint": "gts lint",
     "prebuild": "npm run lint && npm t",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint",
     "test": "./node_modules/.bin/jest",
     "test:coverage": "./node_modules/.bin/jest --coverage",
     "test:watch": "./node_modules/.bin/jest --watch"
@@ -35,12 +39,14 @@
   "homepage": "https://github.com/jesselpalmer/collision.js",
   "devDependencies": {
     "@types/jest": "^26.0.23",
+    "@types/node": "^14.11.2",
     "@typescript-eslint/eslint-plugin": "^4.11.0",
     "@typescript-eslint/parser": "^4.11.0",
     "eslint": "^7.16.0",
+    "gts": "^3.1.0",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.6",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.4"
+    "typescript": "^4.0.3"
   }
 }

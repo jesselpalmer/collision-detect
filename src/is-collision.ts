@@ -1,6 +1,6 @@
-import CollisionObject from './shared/models/collision-object'
-import isCollidingTopOrBottom from './is-colliding-top-bottom'
-import isCollidingMiddleRightOrLeft from './is-colliding-middle-left-right'
+import CollisionObject from './shared/models/collision-object';
+import isCollidingTopOrBottom from './is-colliding-top-bottom';
+import isCollidingMiddleRightOrLeft from './is-colliding-middle-left-right';
 
 /**
  * isColliding()
@@ -13,7 +13,10 @@ import isCollidingMiddleRightOrLeft from './is-colliding-middle-left-right'
  * @return {boolean} Returns whether there is a collision or not.
  */
 const isColliding = (obj1: CollisionObject, obj2: CollisionObject): boolean => {
-  return isCollidingTopOrBottom(obj1, obj2) || isCollidingMiddleRightOrLeft(obj1, obj2)
-}
+  return (
+    isCollidingTopOrBottom(obj1, obj2) ||
+    isCollidingMiddleRightOrLeft(obj1, obj2)
+  );
+};
 
-export default isColliding
+export default isColliding;

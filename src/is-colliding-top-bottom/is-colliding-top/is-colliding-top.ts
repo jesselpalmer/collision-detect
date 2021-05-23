@@ -1,7 +1,7 @@
-import CollisionObject from '../../shared/models/collision-object'
-import isCollidingTopLeft from './is-colliding-top-left'
-import isCollidingTopMiddle from './is-colliding-top-middle'
-import isCollidingTopRight from './is-colliding-top-right'
+import CollisionObject from '../../shared/models/collision-object';
+import isCollidingTopLeft from './is-colliding-top-left';
+import isCollidingTopMiddle from './is-colliding-top-middle';
+import isCollidingTopRight from './is-colliding-top-right';
 
 /**
  * isCollidingTop()
@@ -13,10 +13,15 @@ import isCollidingTopRight from './is-colliding-top-right'
  * @param {CollisionObject} obj2 This is the second object in the collision test.
  * @return {boolean} Returns whether there is a collision or not.
  */
-const isCollidingTop = (obj1: CollisionObject, obj2: CollisionObject): boolean => {
-  return isCollidingTopLeft(obj1, obj2) ||
-      isCollidingTopMiddle(obj1, obj2) ||
-      isCollidingTopRight(obj1, obj2)
-}
+const isCollidingTop = (
+  obj1: CollisionObject,
+  obj2: CollisionObject
+): boolean => {
+  return (
+    isCollidingTopLeft(obj1, obj2) ||
+    isCollidingTopMiddle(obj1, obj2) ||
+    isCollidingTopRight(obj1, obj2)
+  );
+};
 
-export default isCollidingTop
+export default isCollidingTop;

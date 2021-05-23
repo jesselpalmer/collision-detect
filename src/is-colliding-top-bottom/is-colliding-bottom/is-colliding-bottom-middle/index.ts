@@ -1,2 +1,2 @@
-import isCollidingBottomMiddle from './is-colliding-bottom-middle'
-export default isCollidingBottomMiddle
+import isCollidingBottomMiddle from './is-colliding-bottom-middle';
+export default isCollidingBottomMiddle;

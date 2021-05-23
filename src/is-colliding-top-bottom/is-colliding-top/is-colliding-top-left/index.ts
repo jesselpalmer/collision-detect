@@ -1,2 +1,2 @@
-import isCollidingTopLeft from './is-colliding-top-left'
-export default isCollidingTopLeft
+import isCollidingTopLeft from './is-colliding-top-left';
+export default isCollidingTopLeft;

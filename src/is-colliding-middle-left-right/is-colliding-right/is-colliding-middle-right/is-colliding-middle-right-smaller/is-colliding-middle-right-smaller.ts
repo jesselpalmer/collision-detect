@@ -1,4 +1,4 @@
-import CollisionObject from '../../../../shared/models/collision-object'
+import CollisionObject from '../../../../shared/models/collision-object';
 
 /**
  * isCollidingMiddleRightSmaller()
@@ -11,11 +11,20 @@ import CollisionObject from '../../../../shared/models/collision-object'
  * @param {CollisionObject} obj2 This is the second object in the collision test.
  * @return {boolean} Returns whether there is a collision or not.
  */
-const isCollidingMiddleRightSmaller = (obj1: CollisionObject, obj2: CollisionObject): boolean => {
-  return (obj1.x1 < obj2.x1) && (obj1.x1 < obj2.x2) &&
-    (obj1.x2 > obj2.x1) && (obj1.x2 < obj2.x2) &&
-    (obj1.y1 < obj2.y1) && (obj1.y1 < obj2.y2) &&
-    (obj1.y2 > obj2.y1) && (obj1.y2 > obj2.y2)
-}
+const isCollidingMiddleRightSmaller = (
+  obj1: CollisionObject,
+  obj2: CollisionObject
+): boolean => {
+  return (
+    obj1.x1 < obj2.x1 &&
+    obj1.x1 < obj2.x2 &&
+    obj1.x2 > obj2.x1 &&
+    obj1.x2 < obj2.x2 &&
+    obj1.y1 < obj2.y1 &&
+    obj1.y1 < obj2.y2 &&
+    obj1.y2 > obj2.y1 &&
+    obj1.y2 > obj2.y2
+  );
+};
 
-export default isCollidingMiddleRightSmaller
+export default isCollidingMiddleRightSmaller;

@@ -1,2 +1,2 @@
-import isCollidingMiddleRightLarger from './is-colliding-middle-right-larger'
-export default isCollidingMiddleRightLarger
+import isCollidingMiddleRightLarger from './is-colliding-middle-right-larger';
+export default isCollidingMiddleRightLarger;

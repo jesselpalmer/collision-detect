@@ -1,5 +1,5 @@
-import CollisionObject from '../../../shared/models/collision-object'
-import isCollidingTopRight from '.'
+import CollisionObject from '../../../shared/models/collision-object';
+import isCollidingTopRight from '.';
 
 test('should return true if obj2 collides with the top right of obj1', () => {
   const obj1: CollisionObject = {
@@ -7,14 +7,14 @@ test('should return true if obj2 collides with the top right of obj1', () => {
     x2: 10,
     y1: 5,
     y2: 15,
-  }
+  };
 
   const obj2: CollisionObject = {
     x1: 5,
     x2: 15,
     y1: 0,
     y2: 10,
-  }
+  };
 
-  expect(isCollidingTopRight(obj1, obj2)).toBe(true)
-})
+  expect(isCollidingTopRight(obj1, obj2)).toBe(true);
+});

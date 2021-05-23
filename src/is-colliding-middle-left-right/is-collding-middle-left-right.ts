@@ -1,6 +1,6 @@
-import CollisionObject from '../shared/models/collision-object'
-import isCollidingMiddleLeft from './is-colliding-left'
-import isCollidingMiddleRight from './is-colliding-right'
+import CollisionObject from '../shared/models/collision-object';
+import isCollidingMiddleLeft from './is-colliding-left';
+import isCollidingMiddleRight from './is-colliding-right';
 
 /**
  * isCollidingMiddleRightOrLeft()
@@ -12,8 +12,13 @@ import isCollidingMiddleRight from './is-colliding-right'
  * @param {CollisionObject} obj2 This is the second object in the collision test.
  * @return {boolean} Returns whether there is a collision or not.
  */
-const isCollidingMiddleRightOrLeft = (obj1: CollisionObject, obj2: CollisionObject): boolean => {
-  return isCollidingMiddleRight(obj1, obj2) || isCollidingMiddleLeft(obj1, obj2)
-}
+const isCollidingMiddleRightOrLeft = (
+  obj1: CollisionObject,
+  obj2: CollisionObject
+): boolean => {
+  return (
+    isCollidingMiddleRight(obj1, obj2) || isCollidingMiddleLeft(obj1, obj2)
+  );
+};
 
-export default isCollidingMiddleRightOrLeft
+export default isCollidingMiddleRightOrLeft;

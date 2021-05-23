@@ -1,6 +1,6 @@
-import CollisionObject from '../shared/models/collision-object'
-import { isCollidingBottom } from './is-colliding-bottom'
-import { isCollidingTop } from './is-colliding-top'
+import CollisionObject from '../shared/models/collision-object';
+import {isCollidingBottom} from './is-colliding-bottom';
+import {isCollidingTop} from './is-colliding-top';
 
 /**
  * isCollidingTopOrBottom()
@@ -12,8 +12,11 @@ import { isCollidingTop } from './is-colliding-top'
  * @param {CollisionObject} obj2 This is the second object in the collision test.
  * @return {boolean} Returns whether there is a collision or not.
  */
-const isCollidingTopOrBottom = (obj1: CollisionObject, obj2: CollisionObject): boolean => {
-  return isCollidingTop(obj1, obj2) || isCollidingBottom(obj1, obj2)
-}
+const isCollidingTopOrBottom = (
+  obj1: CollisionObject,
+  obj2: CollisionObject
+): boolean => {
+  return isCollidingTop(obj1, obj2) || isCollidingBottom(obj1, obj2);
+};
 
-export default isCollidingTopOrBottom
+export default isCollidingTopOrBottom;
