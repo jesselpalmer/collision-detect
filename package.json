@@ -4,8 +4,8 @@
   "description": "Simple 2D JavaScript collision detection library",
   "main": "index.js",
   "scripts": {
-    "compile": "rm -rf ./lib && ./node_modules/.bin/tsc",
-    "compile:watch": "rm -rf ./lib && ./node_modules/.bin/tsc -w",
+    "compile": "rm -rf ./lib && tsc",
+    "compile:watch": "rm -rf ./lib && tsc -w",
     "clean": "gts clean",
     "fix": "gts fix",
     "lint": "gts lint",
@@ -13,9 +13,9 @@
     "prepare": "npm run compile",
     "pretest": "npm run compile",
     "posttest": "npm run lint",
-    "test": "./node_modules/.bin/jest",
-    "test:coverage": "./node_modules/.bin/jest --coverage",
-    "test:watch": "./node_modules/.bin/jest --watch"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
