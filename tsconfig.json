@@ -5,7 +5,7 @@
     "noImplicitAny": true,
     "outDir": "./lib",
     "target": "es5",
-    "types": ["mocha", "chai"]
+    "types": ["jest"]
   },
   "include": [
     "./src/**/*"

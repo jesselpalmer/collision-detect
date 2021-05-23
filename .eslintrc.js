@@ -14,5 +14,8 @@ module.exports = {
     "@typescript-eslint/type-annotation-spacing": "error",
     "@typescript-eslint/no-inferrable-types": "error",
     "@typescript-eslint/explicit-function-return-type": "error"
+  },
+  env: {
+    node: true
   }
 };
