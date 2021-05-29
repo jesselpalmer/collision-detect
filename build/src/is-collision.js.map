@@ -1,0 +1,1 @@
+{"version":3,"file":"is-collision.js","sourceRoot":"","sources":["../../src/is-collision.ts"],"names":[],"mappings":";;AACA,uEAA+D;AAC/D,qFAA4E;AAE5E;;;;;;;;;GASG;AACH,MAAM,WAAW,GAAG,CAAC,IAAqB,EAAE,IAAqB,EAAW,EAAE;IAC5E,OAAO,CACL,iCAAsB,CAAC,IAAI,EAAE,IAAI,CAAC;QAClC,wCAA4B,CAAC,IAAI,EAAE,IAAI,CAAC,CACzC,CAAC;AACJ,CAAC,CAAC;AAEF,kBAAe,WAAW,CAAC"}
