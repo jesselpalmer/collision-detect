@@ -13,8 +13,8 @@ const is_colliding_middle_left_right_1 = require("./is-colliding-middle-left-rig
  * @return {boolean} Returns whether there is a collision or not.
  */
 const isColliding = (obj1, obj2) => {
-    return (is_colliding_top_bottom_1.default(obj1, obj2) ||
-        is_colliding_middle_left_right_1.default(obj1, obj2));
+    return ((0, is_colliding_top_bottom_1.default)(obj1, obj2) ||
+        (0, is_colliding_middle_left_right_1.default)(obj1, obj2));
 };
 exports.default = isColliding;
 //# sourceMappingURL=is-collision.js.map

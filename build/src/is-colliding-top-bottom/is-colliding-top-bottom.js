@@ -13,7 +13,7 @@ const is_colliding_top_1 = require("./is-colliding-top");
  * @return {boolean} Returns whether there is a collision or not.
  */
 const isCollidingTopOrBottom = (obj1, obj2) => {
-    return is_colliding_top_1.isCollidingTop(obj1, obj2) || is_colliding_bottom_1.isCollidingBottom(obj1, obj2);
+    return (0, is_colliding_top_1.isCollidingTop)(obj1, obj2) || (0, is_colliding_bottom_1.isCollidingBottom)(obj1, obj2);
 };
 exports.default = isCollidingTopOrBottom;
 //# sourceMappingURL=is-colliding-top-bottom.js.map

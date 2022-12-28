@@ -13,8 +13,8 @@ const is_colliding_middle_right_smaller_1 = require("./is-colliding-middle-right
  * @return {boolean} Returns whether there is a collision or not.
  */
 const isCollidingMiddleRight = (obj1, obj2) => {
-    return (is_colliding_middle_right_smaller_1.default(obj1, obj2) ||
-        is_colliding_middle_right_larger_1.default(obj1, obj2));
+    return ((0, is_colliding_middle_right_smaller_1.default)(obj1, obj2) ||
+        (0, is_colliding_middle_right_larger_1.default)(obj1, obj2));
 };
 exports.default = isCollidingMiddleRight;
 //# sourceMappingURL=is-colliding-middle-right.js.map

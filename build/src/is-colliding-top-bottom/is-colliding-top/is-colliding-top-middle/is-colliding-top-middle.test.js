@@ -14,6 +14,6 @@ test('should return true if obj2 collides with the top middle of obj1', () => {
         y1: 0,
         y2: 10,
     };
-    expect(_1.default(obj1, obj2)).toBe(true);
+    expect((0, _1.default)(obj1, obj2)).toBe(true);
 });
 //# sourceMappingURL=is-colliding-top-middle.test.js.map

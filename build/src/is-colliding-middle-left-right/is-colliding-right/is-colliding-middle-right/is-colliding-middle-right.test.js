@@ -14,7 +14,7 @@ it('should return true if obj2 collides with the middle right of obj1 and obj2 i
         y1: 5,
         y2: 7,
     };
-    expect(_1.default(obj1, obj2)).toBe(true);
+    expect((0, _1.default)(obj1, obj2)).toBe(true);
 });
 it('should return true if obj2 collides with the middle right of obj1 is larger than obj1', () => {
     const obj1 = {
@@ -29,6 +29,6 @@ it('should return true if obj2 collides with the middle right of obj1 is larger 
         y1: 0,
         y2: 15,
     };
-    expect(_1.default(obj1, obj2)).toBe(true);
+    expect((0, _1.default)(obj1, obj2)).toBe(true);
 });
 //# sourceMappingURL=is-colliding-middle-right.test.js.map

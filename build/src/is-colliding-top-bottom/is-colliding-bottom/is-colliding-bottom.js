@@ -14,9 +14,9 @@ const is_colliding_bottom_right_1 = require("./is-colliding-bottom-right");
  * @return {boolean} Returns whether there is a collision or not.
  */
 const isCollidingBottom = (obj1, obj2) => {
-    return (is_colliding_bottom_left_1.default(obj1, obj2) ||
-        is_colliding_bottom_middle_1.default(obj1, obj2) ||
-        is_colliding_bottom_right_1.default(obj1, obj2));
+    return ((0, is_colliding_bottom_left_1.default)(obj1, obj2) ||
+        (0, is_colliding_bottom_middle_1.default)(obj1, obj2) ||
+        (0, is_colliding_bottom_right_1.default)(obj1, obj2));
 };
 exports.default = isCollidingBottom;
 //# sourceMappingURL=is-colliding-bottom.js.map

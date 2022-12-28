@@ -14,9 +14,9 @@ const is_colliding_top_right_1 = require("./is-colliding-top-right");
  * @return {boolean} Returns whether there is a collision or not.
  */
 const isCollidingTop = (obj1, obj2) => {
-    return (is_colliding_top_left_1.default(obj1, obj2) ||
-        is_colliding_top_middle_1.default(obj1, obj2) ||
-        is_colliding_top_right_1.default(obj1, obj2));
+    return ((0, is_colliding_top_left_1.default)(obj1, obj2) ||
+        (0, is_colliding_top_middle_1.default)(obj1, obj2) ||
+        (0, is_colliding_top_right_1.default)(obj1, obj2));
 };
 exports.default = isCollidingTop;
 //# sourceMappingURL=is-colliding-top.js.map

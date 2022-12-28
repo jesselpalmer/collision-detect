@@ -14,6 +14,6 @@ it('should return true if obj2 collides with the bottom right of obj1', () => {
         y1: 5,
         y2: 15,
     };
-    expect(_1.default(obj1, obj2)).toBe(true);
+    expect((0, _1.default)(obj1, obj2)).toBe(true);
 });
 //# sourceMappingURL=is-colliding-bottom-right.test.js.map
