@@ -35,7 +35,7 @@
     "url": "https://github.com/jesselpalmer/collision.js/issues"
   },
   "engines": {
-    "node": ">14.x.x"
+    "node": ">16.0.0"
   },
   "homepage": "https://github.com/jesselpalmer/collision.js",
   "devDependencies": {
