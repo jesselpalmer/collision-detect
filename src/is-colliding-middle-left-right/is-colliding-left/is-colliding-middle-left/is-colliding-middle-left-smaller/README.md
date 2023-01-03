@@ -2,4 +2,4 @@
 
 ## Visualization
 
-![alt text](../../../../../assets/images/collision.js%20isCollidingMiddleLeftSmaller.jpg "isCollidingMiddleLeftSmaller")
+![alt text](../../../../../assets/images/is-colliding-middle-left-smaller.jpg "isCollidingMiddleLeftSmaller")
