@@ -1,0 +1,1 @@
+{"version":3,"file":"is-colliding.js","sourceRoot":"","sources":["../../src/is-colliding.ts"],"names":[],"mappings":";;AACA,uEAA+D;AAC/D,qFAA4E;AAE5E;;;;;;;;;GASG;AACH,MAAM,WAAW,GAAG,CAAC,IAAqB,EAAE,IAAqB,EAAW,EAAE;IAC5E,OAAO,CACL,IAAA,iCAAsB,EAAC,IAAI,EAAE,IAAI,CAAC;QAClC,IAAA,wCAA4B,EAAC,IAAI,EAAE,IAAI,CAAC,CACzC,CAAC;AACJ,CAAC,CAAC;AAEF,kBAAe,WAAW,CAAC"}
