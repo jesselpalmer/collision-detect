@@ -1,15 +1,37 @@
 # collision.js
 
-collision.js is a JavaScript library for use for collision detection to use for HTML5 Canvas games. The library is in beta right now so it should only be used for testing purposes. Happy colliding!
+collision.js is a JavaScript library designed specifically for collision
+detection. Dive in and happy colliding!
+
+## Installation
+
+To install collision.js using npm:
+
+```bash
+npm install collision.js --save
+```
+
+Then, in your JavaScript file:
+
+```javascript
+import {isCollidingWith} from 'collision.js';
+```
+
+Note: Ensure you have Node.js and npm installed on your machine before
+attempting the installation.
 
 ## Usage
 
-Currently, only squares and rectangles. It is required that both objects contain `x1`, `x2`, `y1`, and `y2`. They can contain other methods as well.
+At present, the library supports collision detection for squares and rectangles.
+
+To leverage the library, it's required for objects to have the properties:
+`x1`, `x2`, `y1`, and `y2`. Though they can have other properties or methods,
+these are required for the collision detection to work.
 
 ### Simple object example
 
 ```javascript
-import { isColliding } from 'collision.js'
+import {isCollidingWith} from 'collision.js'
 
 let obj1 = {
   x1: 0,
@@ -25,7 +47,7 @@ let obj2 = {
   y2: 15
 }
 
-if (isColliding(obj1, obj2)) { // collision detected!
+if (isCollidingWith(obj1, obj2)) { // collision detected!
   obj1.x1 += 1
   obj1.x2 += 1
 }
@@ -34,9 +56,9 @@ if (isColliding(obj1, obj2)) { // collision detected!
 ### Slightly more complex example
 
 ```javascript
-import { isColliding } from 'collision.js'
+import {isCollidingWith} from 'collision.js'
 
-class Rectange {
+class Rectangle {
   constructor(x1, x2, y1, y2) {
     this.x1 = x1
     this.x2 = x2
@@ -59,7 +81,7 @@ class Square extends Rectangle {
 const rectangle = new Rectangle(5, 15, 5, 15)
 const square = new Square(0, 10, 0, 10)
 
-if (isColliding(square, rectangle)) { // collision detected!
+if (isCollidingWith(square, rectangle)) { // collision detected!
   square.moveRight()
 }
 ```
