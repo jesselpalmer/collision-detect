@@ -39,9 +39,17 @@
     "url": "git://github.com/jesselpalmer/collision.js.git"
   },
   "keywords": [
-    "games",
+    "2d-collision",
+    "2d-collision library",
     "collision",
-    "detection"
+    "collisionjs",
+    "collision detection",
+    "collisions",
+    "detection",
+    "game library",
+    "graphics library",
+    "rectangle collisions",
+    "square collisions"
   ],
   "funding": {
     "type": "github",

@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/dw/collision.js.svg)](https://www.npmjs.com/package/collision.js) [![Node.js CI](https://github.com/jesselpalmer/collision.js/actions/workflows/nodejs-ci.yml/badge.svg)](https://github.com/jesselpalmer/collision.js/actions/workflows/nodejs-ci.yml/)
+
 # collision.js
 
 collision.js is a JavaScript library designed specifically for collision
