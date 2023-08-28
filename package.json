@@ -1,5 +1,5 @@
 {
-  "name": "CollisionDetect",
+  "name": "2DCollisionDetect",
   "version": "2.0.0",
   "description": "Simple 2D JavaScript collision detection library",
   "main": "./src/index.js",
@@ -31,12 +31,12 @@
     "node": ">16.0.0"
   },
   "bugs": {
-    "url": "https://github.com/jesselpalmer/CollisionDetect/issues"
+    "url": "https://github.com/jesselpalmer/2DCollisionDetect/issues"
   },
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jesselpalmer/CollisionDetect.git"
+    "url": "git://github.com/jesselpalmer/2DCollisionDetect.git"
   },
   "keywords": [
     "2d-collision",

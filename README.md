@@ -1,22 +1,22 @@
-[![npm](https://img.shields.io/npm/dw/CollisionDetect.svg)](https://www.npmjs.com/package/CollisionDetect) [![Node.js CI](https://github.com/jesselpalmer/CollisionDetect/actions/workflows/nodejs-ci.yml/badge.svg)](https://github.com/jesselpalmer/CollisionDetect/actions/workflows/nodejs-ci.yml/)
+[![npm](https://img.shields.io/npm/dw/2DCollisionDetect.svg)](https://www.npmjs.com/package/2DCollisionDetect) [![Node.js CI](https://github.com/jesselpalmer/2DCollisionDetect/actions/workflows/nodejs-ci.yml/badge.svg)](https://github.com/jesselpalmer/2DCollisionDetect/actions/workflows/nodejs-ci.yml/)
 
-# CollisionDetect
+# 2DCollisionDetect
 
-CollisionDetect is a JavaScript library designed specifically for collision
-detection. Dive in and happy colliding!
+2DCollisionDetect is a JavaScript library designed specifically for collision
+detection. Happy colliding!
 
 ## Installation
 
-To install CollisionDetect using npm:
+To install 2DCollisionDetect using npm:
 
 ```bash
-npm install CollisionDetect --save
+npm install 2DCollisionDetect --save
 ```
 
 Then, in your JavaScript file:
 
 ```javascript
-import {isCollidingWith} from 'CollisionDetect';
+import {isCollidingWith} from '2DCollisionDetect';
 ```
 
 Note: Ensure you have Node.js and npm installed on your machine before
@@ -33,7 +33,7 @@ these are required for the collision detection to work.
 ### Simple object example
 
 ```javascript
-import {isCollidingWith} from 'CollisionDetect';
+import {isCollidingWith} from '2DCollisionDetect';
 
 let obj1 = {
   x1: 0,
@@ -59,7 +59,7 @@ if (isCollidingWith(obj1, obj2)) {
 ### Slightly more complex example
 
 ```javascript
-import {isCollidingWith} from 'CollisionDetect';
+import {isCollidingWith} from '2DCollisionDetect';
 
 class Rectangle {
   constructor(x1, x2, y1, y2) {
